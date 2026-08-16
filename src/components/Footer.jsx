@@ -311,6 +311,12 @@ export default function Footer() {
         className="container mx-auto px-4 mt-12 pt-6 border-t border-slate-900 text-center text-xs text-slate-500 flex flex-col sm:flex-row justify-between items-center gap-4"
       >
         <p>© {new Date().getFullYear()} Jai Shree Book Center. All rights reserved.</p>
+        <p className="text-slate-500">
+          Designed & Developed by{" "}
+          <span className="text-amber-500 font-extrabold hover:text-amber-400 transition-colors duration-200 cursor-pointer">
+            Pratik Jaiswal
+          </span>
+        </p>
         <div className="flex space-x-4 text-slate-500">
           <a href="#" className="hover:text-slate-300 transition-colors">Privacy Policy</a>
           <span>•</span>
